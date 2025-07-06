@@ -432,7 +432,6 @@
     )
   )
 )
-
 ;; Dispute escrow payment
 (define-public (dispute-escrow (payment-id uint) (dispute-reason (string-utf8 512)))
   (let ((payment-data (unwrap! (map-get? payment-requests { payment-id: payment-id }) 
