@@ -272,7 +272,6 @@
     (ok payment-id)
   )
 )
-
 ;; Execute instant payment
 (define-public (pay-instant (recipient principal) (amount uint) (memo (string-utf8 256)))
   (let ((platform-fee (calculate-platform-fee amount))
