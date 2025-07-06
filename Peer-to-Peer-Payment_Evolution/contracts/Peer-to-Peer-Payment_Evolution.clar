@@ -60,7 +60,6 @@
     registration-block: uint
   }
 )
-
 ;; Recurring payment schedules
 (define-map recurring-payments
   { schedule-id: uint }
