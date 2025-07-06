@@ -240,7 +240,6 @@
 ;; ============================================================================
 ;; BASIC PAYMENT FUNCTIONS
 ;; ============================================================================
-
 ;; Create a payment request
 (define-public (create-payment-request 
   (recipient principal) 
