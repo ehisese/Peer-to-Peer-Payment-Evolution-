@@ -100,7 +100,6 @@
     payment-block: uint
   }
 )
-
 ;; Transaction history for audit trail
 (define-map transaction-history
   { tx-id: uint }
